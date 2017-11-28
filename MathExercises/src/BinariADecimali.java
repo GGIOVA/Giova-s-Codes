@@ -19,17 +19,17 @@ public class BinariADecimali {
 						numeri[j]=0;
 					} 
 					break;
-				}
-				
-				
+					
+				}numeri[i] = cont;
 			}
+				
 				long result=0;
 					for(int x=0;x < numeri.length;x++) {
 						int potenzaDiDue=1;
 						for(int j =0;j<x;j++) {
 							potenzaDiDue=potenzaDiDue*2;
 						}
-	result=result+(numeri[x]*potenzaDiDue);
+						result=result+(numeri[x]*potenzaDiDue);
 						
 					}
 				System.out.println("Il numero in base dieci è: " + result);
