@@ -20,7 +20,8 @@ public class BinariADecimali {
 					} 
 					break;
 					
-				}numeri[i] = cont;
+				}
+				numeri[i] = cont;
 			}
 				
 				long result=0;
@@ -32,6 +33,12 @@ public class BinariADecimali {
 						result=result+(numeri[x]*potenzaDiDue);
 						
 					}
+					
+				System.out.println("Il numero binario digitato è: ");
+					for(int i=0;i<numeri.length;i++) {
+						System.out.print(numeri[i]);
+					}
+			
 				System.out.println("Il numero in base dieci è: " + result);
 				
 			
